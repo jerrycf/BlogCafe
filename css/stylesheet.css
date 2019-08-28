@@ -1,0 +1,81 @@
+/*--ESTILOS GLOBALES--*/
+html{
+  box-sizing: border-box;
+  font-size: 62.5%; /*1 rem = 10 px*/
+}
+*, *:before, *:after{
+  /*box-sizing: inherit;*/
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  line-height: 2;
+}
+.contenedor{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+h1, h2, h3, h4{  font-family: 'PT Sans', sans-serif;}
+
+h1{
+  font-size: 4.8rem;
+}
+h2{
+  font-size: 4.0rem;
+}
+h3{
+  font-size: 3.2rem;
+}
+h4{
+  font-size: 2rem;
+}
+img{
+  max-width: 100%;
+}
+/*--UTILIDADES--*/
+.centrar-texto{
+  text-align: center;
+}
+.no-margin{
+  margin: 0;
+}
+/*INDEX*/
+/*HEADER*/
+
+.site-header{
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 60rem;
+}
+
+.site-header a{
+  color: #ffffff;
+  text-decoration: none;
+}
+.site-header h1{
+  text-align: center;
+  font-weight: 400;
+}
+.site-header h1 span{
+  font-weight: 700;
+}
+.navegacion a{
+  text-align: center;
+  display: block;
+  font-size: 1.8rem;
+}
+/*--HEADER TEXTO--*/
+.texto-header{
+  color: #ffffff;
+  text-align: center;
+  margin-top: 5rem;
+}
+.texto-header p{
+  font-size: 2.2rem;
+
+}
+/**/
+/**/
+/**/
